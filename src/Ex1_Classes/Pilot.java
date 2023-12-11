@@ -1,4 +1,4 @@
-package Ex1;
+package Ex1_Classes;
 
 import java.util.Scanner;
 

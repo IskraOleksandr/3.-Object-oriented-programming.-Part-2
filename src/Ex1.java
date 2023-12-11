@@ -1,7 +1,7 @@
-import Ex1.Human;
-import Ex1.Builder;
-import Ex1.Sailor;
-import Ex1.Pilot;
+import Ex1_Classes.Human;
+import Ex1_Classes.Builder;
+import Ex1_Classes.Sailor;
+import Ex1_Classes.Pilot;
 
 public class Ex1 {
     public static void main(String[] args) {
