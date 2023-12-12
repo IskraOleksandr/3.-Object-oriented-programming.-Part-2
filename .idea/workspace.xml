@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caaa7a34-de59-494d-8ef8-583719b45d81" name="Changes" comment="#Task1 Добавленно задание 1">
-      <change afterPath="$PROJECT_DIR$/src/Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2_Classes/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2_Classes/Crocodile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2_Classes/Kangaroo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2_Classes/Tiger.java" afterDir="false" />
+    <list default="true" id="caaa7a34-de59-494d-8ef8-583719b45d81" name="Changes" comment="#Task1 Добавленно задание 2">
+      <change afterPath="$PROJECT_DIR$/src/Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex3_Classes/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex3_Classes/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex4_Classes/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex4_Classes/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex4_Classes/Kettle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex4_Classes/Microwave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex4_Classes/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex5_Classes/Cello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex5_Classes/MusicalInstrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex5_Classes/Trombone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex5_Classes/Ukulele.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex5_Classes/Violin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1_Classes/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1_Classes/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1_Classes/Pilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1/Sailor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1_Classes/Sailor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +73,8 @@
       <updated>1702219855943</updated>
       <workItem from="1702219857195" duration="4560000" />
       <workItem from="1702280468913" duration="8976000" />
-      <workItem from="1702309184825" duration="3080000" />
+      <workItem from="1702309184825" duration="4724000" />
+      <workItem from="1702381146834" duration="3734000" />
     </task>
     <task id="LOCAL-00001" summary="#Task1 Добавленно задание 1">
       <option name="closed" value="true" />
@@ -78,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702318183043</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="#Task1 Добавленно задание 2">
+      <option name="closed" value="true" />
+      <created>1702319796154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702319796154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#Task1 Добавленно задание 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Task1 Добавленно задание 1" />
+    <MESSAGE value="#Task1 Добавленно задание 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Task1 Добавленно задание 2" />
   </component>
 </project>
