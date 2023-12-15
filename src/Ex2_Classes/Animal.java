@@ -2,32 +2,16 @@ package Ex2_Classes;
 
 import java.util.Scanner;
 
-public class Animal {
-    private String name;
+public abstract class Animal {
+    protected String name;
+    protected int age;
+    protected double weight;
 
-    public Animal() {
-        this.name = "Животное";
-    }
-
-    public Animal(String name) {
-        this.name = name;
-    }
-
-    public void input() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("\nВведите название животного: ");
-        name = scanner.nextLine();
-    }
+    protected abstract String go();
 
     public void print() {
-        System.out.println("\nНазвание животного: " + name);
+        System.out.println("\n" + name + ": " + go() +
+                "\nМой возраст: " + age + "\nМой вес: " + weight);
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
 }

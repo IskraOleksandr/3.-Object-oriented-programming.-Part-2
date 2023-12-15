@@ -15,11 +15,16 @@ public class Money {
     }
 
     public void setDollars(int dollars) {
-        this.dollars = dollars;
+        this.dollars = Math.max(dollars, 0);
     }
 
     public void setCents(int cents) {
-        this.cents = cents;
+        if (cents > 99) {
+            int n1 = cents % 100;
+            this.cents = n1;
+            n1 = cents / 100;
+            this.dollars += n1;
+        } else this.cents = Math.max(cents, 0);
     }
 
     public int getDollars() {
@@ -31,6 +36,6 @@ public class Money {
     }
 
     public void displayAmount() {
-        System.out.println(dollars + "." + cents);
+        System.out.printf("%d.%02d%n", dollars, cents);
     }
 }

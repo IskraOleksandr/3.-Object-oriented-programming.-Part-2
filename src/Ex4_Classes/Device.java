@@ -1,23 +1,15 @@
 package Ex4_Classes;
 
-public class Device {
-    private String name;
-    private String characteristics;
+public abstract class Device {
+    protected String name;
 
-    public Device(String name, String characteristics) {
+    public Device(String name) {
         this.name = name;
-        this.characteristics = characteristics;
     }
 
-    public void sound() {
-        System.out.println("Beep beep");
-    }
+    public abstract void sound();
 
-    public void show() {
-        System.out.println("Device: " + name);
-    }
+    public abstract void show();
 
-    public void desc() {
-        System.out.println("Characteristics: " + characteristics);
-    }
+    public abstract void desc();
 }

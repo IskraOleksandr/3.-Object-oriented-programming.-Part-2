@@ -3,14 +3,13 @@ import Ex3_Classes.Product;
 
 public class Ex3 {
     public static void main(String[] args) {
-
-        Money money = new Money(10, 50);
-        money.displayAmount();
-
-        Product product = new Product("Apple", 2, 75);
+        Product product = new Product("Яблоко", 3, 30);
         product.displayProductInfo();
 
-        product.decreasePrice(50);
+        product.increasePrice(2.80);
+        product.displayProductInfo();
+        
+        product.decreasePrice(4.875);
         product.displayProductInfo();
     }
 }
