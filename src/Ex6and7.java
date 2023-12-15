@@ -4,7 +4,7 @@ public class Ex6and7 {
     public static void main(String[] args) {
         Array arr = new Array(16);
         arr.init(-5, 15);
-        System.out.println(arr);
+        System.out.println("\n\n" + arr);
 
         int number = 0;
         number = arr.max();
@@ -17,9 +17,9 @@ public class Ex6and7 {
         System.out.println("Среднеарифметическое значение массива: " + number2);
 
         arr.sortAsc();
-        System.out.println("сортировка по возрастанию " + arr);
+        System.out.println("\nCортировка по возрастанию " + arr);
 
         arr.sortDesc();
-        System.out.println("сортировка по убыванию " + arr);
+        System.out.println("\nCортировка по убыванию " + arr + "\n\n");
     }
 }
